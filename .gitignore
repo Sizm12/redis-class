@@ -1,0 +1,64 @@
+# Archivos de entorno
+.env
+
+# Directorios de dependencias
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs y bases de datos
+*.log
+*.rdb
+dump.rdb
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Directorios de datos de Redis
+data/
+
+# Archivos de volúmenes de Docker
+**/data/
+
+# Archivos de Docker
+*.tar
+docker-compose.override.yml
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos de sistema
+trash/
+*.swp
+*~
+
+# Archivos de configuración local
+*.local
+
+# Archivos de entorno de desarrollo
+.env.development
+.env.test
+.env.production
+
+# Archivos de configuración específicos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de configuración específicos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
